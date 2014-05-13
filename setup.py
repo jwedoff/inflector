@@ -25,5 +25,5 @@ setup(
     license=LICENSE,
     test_suite='tests',
     data_files=[('', ["LICENSE", "README.md", "CHANGES", "DEBT"])],
-    packages=["inflector"]
+    packages=["inflector","inflector.languages"]
 )
